@@ -30,7 +30,7 @@ https://gist.github.com/ExperiBass/2375ac4f7088bb9410d81cd59495f462
 	font-smooth: never;
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
-    src: url("https://saltssaumure.github.io/pios-discord-theme/font/FixedSysTrue.ttf");
+    src: url("https://github.com/iTwisten/Custom-Pios/blob/main/monolisa-regular.ttf");
 }
 
 @font-face {
@@ -38,7 +38,7 @@ https://gist.github.com/ExperiBass/2375ac4f7088bb9410d81cd59495f462
 	font-smooth: never;
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
-    src: url("https://saltssaumure.github.io/pios-discord-theme/font/PerfectDosVga.ttf");
+    src: url("https://github.com/iTwisten/Custom-Pios/blob/main/monolisa-regular.ttf");
 }
 
 /* Warn users in light mode */
@@ -57,7 +57,7 @@ User-definable variables: kebab-case
 .layerContainer-2v_Sit .theme-light /* Modals that use theme-light while in dark mode */
 {
     /* Set customisable colour scheme */
-    --piOSaccenthue:  var(--accent-color, 0); /* default: 0 (red) */
+    --piOSaccenthue:  var(--accent-color, 0); /* default: 0 (purple) */
     --piOSaccent:     hsl(var(--piOSaccenthue), calc(var(--saturation-factor)*100%), 50%);
     --piOSwhite:    white;
     --piOSlightgrey:lightgrey;
